@@ -1,0 +1,57 @@
+body{
+
+	margin:auto;
+}
+
+
+.navbar {  
+	position: fixed;
+	font-family: font-family: 'Arvo', serif;
+
+}
+
+h2{
+	color:#50898d;
+}
+	
+}
+
+.banner{
+
+	float: left;
+	text-align: center;
+}
+ .mision{
+ 	float: left;
+ 	clear: both;
+ }
+
+
+}
+
+}
+@media( min-width:480px) and (max-width: 767px){
+
+img	{ width: 50%;
+
+
+
+}
+
+@media(min-width: 768px){
+
+   img{
+   	width: 100%;
+   	margin-top: 100px;
+
+
+   }
+
+
+
+}
+
+.col-md-1{
+
+	width: 30%;
+}
