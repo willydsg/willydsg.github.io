@@ -4,10 +4,24 @@ body{
 }
 
 
-.navbar {  
+nav {  
 	position: fixed;
-	font-family: font-family: 'Arvo', serif;
+	z-index: 10px;
+	font-family: 'Arvo', serif;
+	width: 100%;
 
+}
+
+navbar-form navbar-left{
+
+padding-left: 25%;
+
+}
+.logo img{
+
+	float: left;
+	margin:auto;
+	text-align: center;
 }
 
 h2{
@@ -16,42 +30,120 @@ h2{
 	
 }
 
-.banner{
 
-	float: left;
-	text-align: center;
-}
  .mision{
  	float: left;
  	clear: both;
  }
+.nn img{   
+
+ width: 300;
+ text-align: center;
+ float: left;
+
+
+}
 
 
 }
 
 }
-@media( min-width:480px) and (max-width: 767px){
 
-img	{ width: 50%;
+.talleres p{
 
+	text-align: center;
+	float: left;
+	clear: both;
+
+
+	
+}
+
+.talleres img{
+
+	width: 500px;
+	text-align: center;
+	margin: 0;
+
+}
+h3{  
+
+	text-align: center;
+}
+.vuelta{
+ display: block;
 
 
 }
+.mision p {
 
-@media(min-width: 768px){
-
-   img{
-   	width: 100%;
-   	margin-top: 100px;
-
-
-   }
-
+	text-align: center;
+	clear: both;
 
 
 }
+h2{
+	color: red;
 
-.col-md-1{
 
-	width: 30%;
+}
+.objetivos  p{
+
+	float: left;
+	clear: both;
+	text-align: center;
+}
+.objetivos  h4{
+	padding-top:100px;
+	float: left;
+	clear: both;
+	text-align: center;
+}
+
+.noticias{
+	padding: 100px;
+
+}
+
+footer{
+
+	padding-top:10%;
+}
+footer h1{ 
+text-align: center;
+padding-bottom: 10%;
+
+}
+
+
+
+.redes-sociales img{  
+	width: 175px;
+	float: left;
+	padding-bottom: 10%;
+
+}
+
+.mapa{
+
+	width: 15%;
+
+}
+
+p{
+	padding-bottom: 8%;
+}
+
+.etica p{
+
+	padding-bottom: 3%;
+}
+
+.etica img{
+
+
+	text-align: center;
+	margin: auto;
+
+
 }
